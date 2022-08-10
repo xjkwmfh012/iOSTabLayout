@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0A0B6462289ACEC400D25F39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B6461289ACEC400D25F39 /* AppDelegate.swift */; };
 		0A0B6464289ACEC400D25F39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B6463289ACEC400D25F39 /* SceneDelegate.swift */; };
-		0A0B6466289ACEC400D25F39 /* TabLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B6465289ACEC400D25F39 /* TabLayoutViewController.swift */; };
+		0A0B6466289ACEC400D25F39 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0B6465289ACEC400D25F39 /* MainViewController.swift */; };
 		0A0B646B289ACEC600D25F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0B646A289ACEC600D25F39 /* Assets.xcassets */; };
 		0A0B646E289ACEC600D25F39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A0B646C289ACEC600D25F39 /* LaunchScreen.storyboard */; };
 		0AE9583F289ADAFB00751E6A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0AE9583E289ADAFB00751E6A /* SnapKit */; };
@@ -17,13 +17,16 @@
 		0AE95844289ADE6500751E6A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE95843289ADE6500751E6A /* FirstViewController.swift */; };
 		0AE95846289ADE7D00751E6A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE95845289ADE7D00751E6A /* SecondViewController.swift */; };
 		0AE95848289ADE9200751E6A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE95847289ADE9200751E6A /* ThirdViewController.swift */; };
+		0AE9584B28A1730C00751E6A /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE9584A28A1730C00751E6A /* TabView.swift */; };
+		0AE9584E28A1742E00751E6A /* TabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE9584D28A1742E00751E6A /* TabCell.swift */; };
+		0AE9585128A248B200751E6A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0AE9585028A248B200751E6A /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A0B645E289ACEC400D25F39 /* iOSTabLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTabLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A0B6461289ACEC400D25F39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A0B6463289ACEC400D25F39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0A0B6465289ACEC400D25F39 /* TabLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabLayoutViewController.swift; sourceTree = "<group>"; };
+		0A0B6465289ACEC400D25F39 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0A0B646A289ACEC600D25F39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A0B646D289ACEC600D25F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A0B646F289ACEC600D25F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,6 +34,8 @@
 		0AE95843289ADE6500751E6A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		0AE95845289ADE7D00751E6A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		0AE95847289ADE9200751E6A /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		0AE9584A28A1730C00751E6A /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		0AE9584D28A1742E00751E6A /* TabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +44,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AE9583F289ADAFB00751E6A /* SnapKit in Frameworks */,
+				0AE9585128A248B200751E6A /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +73,7 @@
 				0A0B6461289ACEC400D25F39 /* AppDelegate.swift */,
 				0A0B6463289ACEC400D25F39 /* SceneDelegate.swift */,
 				0AE95842289ADDFB00751E6A /* ViewControler */,
+				0AE9584C28A1730F00751E6A /* Views */,
 				0A0B646A289ACEC600D25F39 /* Assets.xcassets */,
 				0A0B646C289ACEC600D25F39 /* LaunchScreen.storyboard */,
 				0A0B646F289ACEC600D25F39 /* Info.plist */,
@@ -77,7 +84,7 @@
 		0AE95842289ADDFB00751E6A /* ViewControler */ = {
 			isa = PBXGroup;
 			children = (
-				0A0B6465289ACEC400D25F39 /* TabLayoutViewController.swift */,
+				0A0B6465289ACEC400D25F39 /* MainViewController.swift */,
 				0AE95840289ADCC000751E6A /* PageViewController.swift */,
 				0AE95849289ADEB400751E6A /* Pages */,
 			);
@@ -92,6 +99,15 @@
 				0AE95847289ADE9200751E6A /* ThirdViewController.swift */,
 			);
 			path = Pages;
+			sourceTree = "<group>";
+		};
+		0AE9584C28A1730F00751E6A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0AE9584A28A1730C00751E6A /* TabView.swift */,
+				0AE9584D28A1742E00751E6A /* TabCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +128,7 @@
 			name = iOSTabLayout;
 			packageProductDependencies = (
 				0AE9583E289ADAFB00751E6A /* SnapKit */,
+				0AE9585028A248B200751E6A /* SnapKit */,
 			);
 			productName = iOSTabLayout;
 			productReference = 0A0B645E289ACEC400D25F39 /* iOSTabLayout.app */;
@@ -172,7 +189,9 @@
 			files = (
 				0AE95846289ADE7D00751E6A /* SecondViewController.swift in Sources */,
 				0AE95844289ADE6500751E6A /* FirstViewController.swift in Sources */,
-				0A0B6466289ACEC400D25F39 /* TabLayoutViewController.swift in Sources */,
+				0AE9584E28A1742E00751E6A /* TabCell.swift in Sources */,
+				0AE9584B28A1730C00751E6A /* TabView.swift in Sources */,
+				0A0B6466289ACEC400D25F39 /* MainViewController.swift in Sources */,
 				0AE95848289ADE9200751E6A /* ThirdViewController.swift in Sources */,
 				0A0B6462289ACEC400D25F39 /* AppDelegate.swift in Sources */,
 				0A0B6464289ACEC400D25F39 /* SceneDelegate.swift in Sources */,
@@ -398,6 +417,11 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		0AE9583E289ADAFB00751E6A /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0AE9583D289ADAFB00751E6A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		0AE9585028A248B200751E6A /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 0AE9583D289ADAFB00751E6A /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;

@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         // 스토리보드 제거 후 첫 화면(루트뷰컨트롤러) 지정
         let window = UIWindow(windowScene: windowScene)
-        window.rootViewController = TabLayoutViewController()
+        window.rootViewController = MainViewController()
         window.makeKeyAndVisible()
         
         self.window = window
