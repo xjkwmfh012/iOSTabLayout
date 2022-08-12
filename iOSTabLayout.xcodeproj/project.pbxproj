@@ -20,7 +20,6 @@
 		0AE9584B28A1730C00751E6A /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE9584A28A1730C00751E6A /* TabView.swift */; };
 		0AE9584E28A1742E00751E6A /* TabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE9584D28A1742E00751E6A /* TabCell.swift */; };
 		0AE9585128A248B200751E6A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0AE9585028A248B200751E6A /* SnapKit */; };
-		0AEAB7A828A6B96300ECC5B4 /* iosTabLayout.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0AEAB7A728A6B96300ECC5B4 /* iosTabLayout.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +36,6 @@
 		0AE95847289ADE9200751E6A /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		0AE9584A28A1730C00751E6A /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		0AE9584D28A1742E00751E6A /* TabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCell.swift; sourceTree = "<group>"; };
-		0AEAB7A728A6B96300ECC5B4 /* iosTabLayout.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = iosTabLayout.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +54,6 @@
 		0A0B6455289ACEC400D25F39 = {
 			isa = PBXGroup;
 			children = (
-				0AEAB7A728A6B96300ECC5B4 /* iosTabLayout.gif */,
 				0A0B6460289ACEC400D25F39 /* iOSTabLayout */,
 				0A0B645F289ACEC400D25F39 /* Products */,
 			);
@@ -178,7 +175,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AEAB7A828A6B96300ECC5B4 /* iosTabLayout.gif in Resources */,
 				0A0B646E289ACEC600D25F39 /* LaunchScreen.storyboard in Resources */,
 				0A0B646B289ACEC600D25F39 /* Assets.xcassets in Resources */,
 			);
