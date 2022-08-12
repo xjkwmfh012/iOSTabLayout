@@ -1,7 +1,5 @@
 # iOS에서 TabLayout+ViewPage 구현하기
 
-종류: UIKit, iOS
-
 Android에서는 TabLayout과 ViewPager를 사용하여 탭과 연결된 스와이프뷰를 만들 수 있습니다. 전체적인 모양은 상단의 선택 가능한 탭이 위치하고 해당 탭과 연결된 화면이 나머지 부분에 나타나는 형식입니다.
 
 ![https://developer.android.com/images/topic/libraries/architecture/navigation-tab-layout.png?hl=ko](https://developer.android.com/images/topic/libraries/architecture/navigation-tab-layout.png?hl=ko)
