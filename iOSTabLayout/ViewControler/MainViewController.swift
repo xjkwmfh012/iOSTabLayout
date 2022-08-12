@@ -62,13 +62,7 @@ extension MainViewController: TabViewDelegate, UIScrollViewDelegate {
         tabView.tabIndicator.snp.updateConstraints { make in
             make.leading.equalTo(currentConstant)
         }
-        
-//        tabView.barIndicatorLeadingConstraint.constant = currentConstant
-                
-        print("index: \(pageViewController.currentPageIndex), offset: \(offsetX), move: \(move), constant: \(currentConstant)")
-
-        print(currentConstant)
-        
+                                
         UIView.animate(withDuration: 0, delay: 0) { [weak self] in
             self?.loadViewIfNeeded()
         }
