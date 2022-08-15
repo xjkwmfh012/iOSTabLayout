@@ -4,7 +4,7 @@ Android에서는 TabLayout과 ViewPager를 사용하여 탭과 연결된 스와�
 
 ![https://developer.android.com/images/topic/libraries/architecture/navigation-tab-layout.png?hl=ko](https://developer.android.com/images/topic/libraries/architecture/navigation-tab-layout.png?hl=ko)
 
-iOS에서 이를 구현하기위해 커스텀 뷰로 상단 탭을 만든 후 UIPageViewController와 연결하여 동일한 모양이 나오도록 구성하였습니다. (PagingKit이라는 라이브러리로도 구현 가능)
+iOS에서 이를 구현하기위해 커스텀 뷰로 상단 탭을 만든 후 UIPageViewController와 연결하여 동일한 모양이 나오도록 구성하였습니다. (PagingKit 등의 라이브러리로도 구현 가능)
 
 ## 결과 화면
 
